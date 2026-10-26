@@ -17,3 +17,15 @@
 .header{transition:box-shadow .3s,background .3s}.header.is-scrolled{box-shadow:0 6px 24px #2221}
 .v28-reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.v28-reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.v28-reveal{opacity:1;transform:none}}
+
+/* Rubriques "Explorer le lycée" : pleine largeur, contenu centré à 1220px max */
+section.ml-archives.ml-ressources{max-width:none;width:auto;margin:70px 0 0;box-sizing:border-box;padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,7vw,96px)}
+section.ml-archives.ml-ressources>*{max-width:1220px;margin-left:auto;margin-right:auto}
+section.ml-archives.ml-ressources .ml-archives-heading{max-width:1220px}
+section.ml-archives.ml-ressources .ml-archives-heading>div{max-width:760px}
+section.ml-archives.ml-ressources .ml-archive-grid{align-items:stretch}
+section.ml-archives.ml-ressources .ml-archive-card li{display:block}
+section.ml-archives.ml-ressources .ml-archive-card li a{width:100%;box-sizing:border-box}
+section.ml-archives.ml-ressources .ml-card-desc{min-height:0}
+@media(max-width:900px){section.ml-archives.ml-ressources .ml-archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){section.ml-archives.ml-ressources{margin-top:40px}section.ml-archives.ml-ressources .ml-archive-grid{grid-template-columns:1fr}}
