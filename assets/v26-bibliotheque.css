@@ -1,0 +1,17 @@
+/* Bibliothèque intégrée — extension non destructive de la V26 */
+.ml-ressources{padding:clamp(45px,7vw,96px) max(24px,calc((100vw - 1220px)/2));background:#fbf8f2;color:#20282a}
+.ml-ressources .ml-archives-heading{max-width:760px;margin-bottom:30px}.ml-ressources .ml-eyebrow{color:#ae7a28;font-size:12px;letter-spacing:.16em;font-weight:800}.ml-ressources h2{font-size:clamp(30px,4vw,48px);line-height:1.12;margin:12px 0 14px;letter-spacing:-.035em}.ml-ressources .ml-archives-heading p{line-height:1.7;color:#66716d}
+.ml-ressources .ml-archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.ml-ressources .ml-archive-card{background:white;border:1px solid #ece7df;border-radius:22px;padding:26px;box-shadow:0 9px 34px rgba(26,38,37,.04)}.ml-ressources .ml-card-symbol{display:grid;place-items:center;width:52px;height:52px;background:#fff0d7;border-radius:16px;font-size:24px}.ml-ressources .ml-archive-card h3{font-size:21px;margin:20px 0 8px}.ml-ressources .ml-card-desc{font-size:14px;line-height:1.6;color:#6d7774;min-height:45px}.ml-ressources .ml-archive-card ul{padding:0;margin:20px 0 0;list-style:none}.ml-ressources .ml-archive-card li{margin:0;border-top:1px solid #f0ede8}.ml-ressources .ml-archive-card li a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;color:#253331;text-decoration:none;font-size:14px;font-weight:600}.ml-ressources .ml-archive-card li a:hover{color:#b47b21}.ml-ressources .ml-archive-card li a span:last-child{color:#ba873d}
+@media(max-width:900px){.ml-ressources .ml-archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.ml-ressources .ml-archive-grid{grid-template-columns:1fr}.ml-ressources .ml-archive-card{padding:22px}}
+
+/* Finitions : cartes façon Intendance / Événements */
+.ml-ressources .ml-archive-card{transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;overflow:hidden;position:relative}
+.ml-ressources .ml-archive-card:before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#ffd187,#d8a854)}
+.ml-ressources .ml-archive-card:hover{transform:translateY(-5px);box-shadow:0 22px 50px rgba(25,30,29,.1);border-color:#e9d4b2}
+.ml-ressources .ml-archive-card li a{padding:12px 2px;color:#25302d;text-decoration:none;font-weight:600;font-size:14px;gap:14px}
+.ml-ressources .ml-archive-card li a:hover{color:#99651c}
+.ml-ressources .ml-archive-card li a span:last-child{color:#b07a2a}
+.ml-ressources .ml-archive-card li a:focus-visible{outline:3px solid #e7ac53;outline-offset:3px;border-radius:4px}
+@media(max-width:850px){.ml-ressources .ml-archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.ml-ressources .ml-archive-grid{grid-template-columns:1fr}.ml-ressources .ml-archive-card{padding:23px}.ml-ressources{padding:44px 18px}}
+@media(prefers-reduced-motion:reduce){.ml-ressources .ml-archive-card{transition:none}.ml-ressources .ml-archive-card:hover{transform:none}}

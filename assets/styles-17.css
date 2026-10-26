@@ -1,0 +1,8 @@
+
+/* V22 — icônes et titres alignés, cartes plus compactes */
+.card-icon-heading{display:flex;align-items:center;gap:13px;margin:0 0 15px;min-height:48px}
+.card-icon-heading .feature-icon,.card-icon-heading .detail-num,.card-icon-heading .life-emoji{flex:0 0 46px;display:flex;align-items:center;justify-content:center;margin:0;width:46px;height:46px;line-height:1;border-radius:12px}
+.card-icon-heading h3{margin:0!important;line-height:1.35!important;flex:1;min-width:0}
+.feature,.detail-card,.life-card{min-width:0}
+.feature .card-icon-heading + p,.detail-card .card-icon-heading + p,.life-card .card-icon-heading + p{margin-top:0}
+@media(max-width:600px){.card-icon-heading{gap:10px}.card-icon-heading h3{font-size:16px}}

@@ -1,0 +1,26 @@
+
+/* V11 : pages locales, navigation sans fichiers secondaires */
+body.detail-mode #homeContent {display:none !important}
+#pageContent {display:none}
+body.detail-mode #pageContent {display:block}
+.detail-hero {background:linear-gradient(125deg,#172a30,#2b4449);color:white;padding:84px max(5%,calc((100vw - 1120px)/2));position:relative;overflow:hidden}
+.detail-hero:before {content:"";position:absolute;width:480px;height:480px;right:-120px;top:-160px;border-radius:50%;background:radial-gradient(circle,#ffd18755,transparent 70%);pointer-events:none}
+.detail-hero .eyebrow {color:#ffd187;font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.detail-hero h1 {font-size:clamp(36px,5vw,65px);line-height:1.08;max-width:850px;margin:20px 0;font-weight:850}
+.detail-hero p {max-width:690px;font-size:18px;line-height:1.7;color:#e9edf0}
+.detail-wrap {max-width:1160px;margin:auto;padding:64px 24px 90px}
+.detail-breadcrumb {font-size:13px;color:#77818a;margin-bottom:32px}
+.detail-breadcrumb a {color:#ae741b;text-decoration:none}
+.detail-intro {font-size:13px;font-weight:800;color:#bb7b20;letter-spacing:2px;text-transform:uppercase}
+.detail-wrap h2 {font-size:clamp(28px,3vw,41px);line-height:1.15;margin:12px 0 24px;color:#1e3035}
+.detail-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.detail-card {background:#fff;border:1px solid #efe6d9;border-radius:20px;padding:30px;box-shadow:0 12px 36px #2c231009}
+.detail-num {display:inline-flex;background:#ffefd2;color:#a56b12;border-radius:12px;padding:11px 14px;font-weight:800;margin-bottom:16px}
+.detail-card h3 {font-size:21px;margin:0 0 13px;color:#182d31}
+.detail-card p {line-height:1.85;color:#647077;font-size:15px;margin:0}
+.detail-bottom {background:#fff7e9;border:1px solid #f4dfba;border-radius:20px;padding:30px;margin-top:30px}
+.detail-bottom p {color:#58656a;line-height:1.75}
+.detail-links {display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.detail-links a {text-decoration:none;background:#ffd187;color:#182b2f;font-weight:800;border-radius:40px;padding:13px 19px;font-size:14px}
+.detail-links a.secondary {background:white;border:1px solid #eadbc5}
+@media(max-width:700px){.detail-hero{padding:58px 24px}.detail-grid{grid-template-columns:1fr}.detail-wrap{padding:40px 18px 65px}}

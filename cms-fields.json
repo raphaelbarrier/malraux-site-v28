@@ -1,0 +1,156 @@
+[
+  {
+    "key": "home_hero_description",
+    "label": "Accueil — présentation",
+    "selector": "#homeContent .hero-content p",
+    "default": "Un lieu pour apprendre, s'épanouir et préparer demain. Découvrez notre établissement et imaginez votre parcours.",
+    "group": "Accueil"
+  },
+  {
+    "key": "presentation_intro",
+    "label": "Découvrir le lycée André-Malraux — introduction",
+    "selector": "#page-presentation .detail-hero p",
+    "default": "Un établissement à Biarritz, entre enseignements, projets et vie collective.",
+    "group": "Découvrir le lycée André-Malraux"
+  },
+  {
+    "key": "formations_intro",
+    "label": "Choisir son parcours — introduction",
+    "selector": "#page-formations .detail-hero p",
+    "default": "Retrouvez les principaux parcours présentés par le lycée et explorez chacun d’eux.",
+    "group": "Choisir son parcours"
+  },
+  {
+    "key": "seconde_intro",
+    "label": "La seconde générale et technologique — introduction",
+    "selector": "#page-seconde .detail-hero p",
+    "default": "Une étape importante pour prendre confiance et préparer la suite de son parcours.",
+    "group": "La seconde générale et technologique"
+  },
+  {
+    "key": "bac-general_intro",
+    "label": "Le parcours général — introduction",
+    "selector": "#page-bac-general .detail-hero p",
+    "default": "Approfondir ses disciplines de prédilection et préparer la poursuite d’études.",
+    "group": "Le parcours général"
+  },
+  {
+    "key": "bac-stl_intro",
+    "label": "Sciences et technologies de laboratoire — introduction",
+    "selector": "#page-bac-stl .detail-hero p",
+    "default": "Une formation technologique qui met en valeur l’expérimentation et les sciences.",
+    "group": "Sciences et technologies de laboratoire"
+  },
+  {
+    "key": "bts-photographie_intro",
+    "label": "Créer, observer, raconter par l’image — introduction",
+    "selector": "#page-bts-photographie .detail-hero p",
+    "default": "Une formation supérieure consacrée à la photographie, de la technique à l’expression visuelle.",
+    "group": "Créer, observer, raconter par l’image"
+  },
+  {
+    "key": "arts-danse_intro",
+    "label": "Explorer l’expression chorégraphique — introduction",
+    "selector": "#page-arts-danse .detail-hero p",
+    "default": "Une ouverture à la pratique, à la création et à la culture de la danse.",
+    "group": "Explorer l’expression chorégraphique"
+  },
+  {
+    "key": "surf-sport_intro",
+    "label": "Le sport dans le parcours scolaire — introduction",
+    "selector": "#page-surf-sport .detail-hero p",
+    "default": "Découvrir les projets et dispositifs sportifs associés au lycée.",
+    "group": "Le sport dans le parcours scolaire"
+  },
+  {
+    "key": "vie-lyceenne_intro",
+    "label": "Grandir et s’engager au lycée — introduction",
+    "selector": "#page-vie-lyceenne .detail-hero p",
+    "default": "La vie du lycée se construit aussi dans les projets, les rencontres et les initiatives des élèves.",
+    "group": "Grandir et s’engager au lycée"
+  },
+  {
+    "key": "cdi_intro",
+    "label": "Un espace pour découvrir et travailler — introduction",
+    "selector": "#page-cdi .detail-hero p",
+    "default": "Le centre de documentation et d’information accompagne les apprentissages et la curiosité.",
+    "group": "Un espace pour découvrir et travailler"
+  },
+  {
+    "key": "cvl-mdl_intro",
+    "label": "Les élèves au cœur de la vie du lycée — introduction",
+    "selector": "#page-cvl-mdl .detail-hero p",
+    "default": "Deux espaces complémentaires pour participer, proposer et agir.",
+    "group": "Les élèves au cœur de la vie du lycée"
+  },
+  {
+    "key": "association-sportive_intro",
+    "label": "Bouger, progresser, partager — introduction",
+    "selector": "#page-association-sportive .detail-hero p",
+    "default": "Une autre façon de vivre le sport et l’esprit collectif au lycée.",
+    "group": "Bouger, progresser, partager"
+  },
+  {
+    "key": "cite-scolaire_intro",
+    "label": "Un établissement ancré dans son territoire — introduction",
+    "selector": "#page-cite-scolaire .detail-hero p",
+    "default": "Comprendre l’environnement éducatif et les différentes composantes de la cité scolaire.",
+    "group": "Un établissement ancré dans son territoire"
+  },
+  {
+    "key": "inscriptions_intro",
+    "label": "Préparer son inscription — introduction",
+    "selector": "#page-inscriptions .detail-hero p",
+    "default": "Les démarches administratives doivent être réalisées selon les procédures officielles.",
+    "group": "Préparer son inscription"
+  },
+  {
+    "key": "intendance_intro",
+    "label": "Intendance & tarifs — introduction",
+    "selector": "#page-intendance .detail-hero p",
+    "default": "Demi-pension, internat, bourses et paiements : toutes les informations essentielles au même endroit.",
+    "group": "Intendance & tarifs"
+  },
+  {
+    "key": "reglement_intro",
+    "label": "Règlement intérieur — introduction",
+    "selector": "#page-reglement .detail-hero p",
+    "default": "Comprendre les règles de la vie scolaire, les droits et les responsabilités de chacun.",
+    "group": "Règlement intérieur"
+  },
+  {
+    "key": "orientation_intro",
+    "label": "Orientation & accompagnement — introduction",
+    "selector": "#page-orientation .detail-hero p",
+    "default": "Des interlocuteurs pour préparer les choix d’études et construire son projet.",
+    "group": "Orientation & accompagnement"
+  },
+  {
+    "key": "sante_intro",
+    "label": "Santé & accompagnement — introduction",
+    "selector": "#page-sante .detail-hero p",
+    "default": "Les services d’écoute, de santé et de soutien à la scolarité.",
+    "group": "Santé & accompagnement"
+  },
+  {
+    "key": "magazine_intro",
+    "label": "Adocéan · Magazine des élèves — introduction",
+    "selector": "#page-magazine .detail-hero p",
+    "default": "Une initiative éditoriale portée par les élèves de la cité scolaire.",
+    "group": "Adocéan · Magazine des élèves"
+  },
+  {
+    "key": "evenements_intro",
+    "label": "Événements du lycée — introduction",
+    "selector": "#page-evenements .detail-hero p",
+    "default": "Retrouvez les rendez-vous, projets et temps forts de l'établissement.",
+    "group": "Événements du lycée"
+  },
+  {
+    "key": "espace-profs_intro",
+    "label": "Espace enseignants — introduction",
+    "selector": "#page-espace-profs .detail-hero p",
+    "default": "Un point d'entrée pratique vers les services officiels et les ressources du lycée.",
+    "group": "Espace enseignants"
+  }
+]

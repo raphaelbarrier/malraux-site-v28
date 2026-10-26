@@ -1,0 +1,25 @@
+
+/* V6 : restauration de la bannière d'accueil V3 uniquement */
+.hero {
+  display:flex !important;
+  align-items:center !important;
+  position:relative !important;
+  height:clamp(440px, 36vw, 620px) !important;
+  min-height:440px !important;
+  max-height:none !important;
+  background-image:url("visuel-c696e5f5b4f7.webp") !important;
+  background-size:cover !important;
+  background-position:center center !important;
+}
+.hero::before,.hero::after {content:none !important;display:none !important;}
+.hero-shade {
+  display:block !important;position:absolute !important;inset:0 !important;
+  background:linear-gradient(90deg,rgba(6,15,18,.73) 0%,rgba(6,15,18,.32) 42%,transparent 78%) !important;
+  pointer-events:none !important;
+}
+.hero-content {display:block !important;position:relative !important;z-index:1 !important;}
+.hero-caption {display:block !important;}
+@media(max-width:700px) {
+ .hero {height:460px !important;min-height:460px !important;background-position:center center !important;}
+ .hero-shade {background:linear-gradient(90deg,rgba(6,15,18,.8),rgba(6,15,18,.18)) !important;}
+}

@@ -1,0 +1,22 @@
+
+.application-contact{margin:28px 0 45px;padding:clamp(22px,4vw,40px);background:linear-gradient(135deg,#fffaf1 0%,#fff 80%);border:1px solid #f0d5aa;border-radius:22px;box-shadow:0 14px 38px rgba(116,79,28,.06);color:#192129}
+.application-contact-heading{display:flex;align-items:flex-start;gap:17px;margin-bottom:25px}
+.application-contact-icon{display:grid;place-items:center;background:#ffe4b4;border-radius:16px;width:58px;height:58px;flex-shrink:0;font-size:27px}
+.application-contact-kicker{display:block;color:#b97819;font-weight:800;font-size:11px;letter-spacing:.14em;margin:2px 0 8px}
+.application-contact h2{font-size:clamp(22px,3vw,30px);line-height:1.2;margin:0 0 12px}
+.application-contact-heading p{margin:0;color:#5f6b76;line-height:1.7}
+.application-email-form{display:grid;grid-template-columns:1fr 1fr;gap:19px}
+.application-field{display:flex;flex-direction:column;gap:9px}
+.application-field label{font-size:13px;font-weight:750;color:#1c2933}
+.application-field input,.application-field select,.application-field textarea{box-sizing:border-box;width:100%;background:#fff;color:#202934;border:1px solid #e8d7bf;border-radius:11px;padding:14px 15px;font:inherit;font-size:14px;line-height:1.45;outline-offset:2px}
+.application-field input:focus,.application-field select:focus,.application-field textarea:focus{outline:2px solid #e9a94b;border-color:#d99b42}
+.application-field textarea{resize:vertical;min-height:140px}
+.application-full{grid-column:1/-1}
+.application-actions{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.application-send{border:0;border-radius:12px;padding:15px 22px;background:#ffd187;color:#34200b;font-weight:800;font-size:14px;cursor:pointer;box-shadow:0 5px 12px rgba(164,100,26,.12)}
+.application-send:hover{background:#ffc36b;transform:translateY(-1px)}
+.application-direct,.application-address a{color:#a76b18;text-decoration:underline;text-underline-offset:3px}
+.application-direct{font-size:13px}
+.application-disclaimer{margin:22px 0 10px;font-size:12px;line-height:1.7;color:#59616a}
+.application-address{font-size:12px;line-height:1.6;margin:0;color:#59616a;overflow-wrap:anywhere}
+@media(max-width:650px){.application-email-form{grid-template-columns:1fr}.application-contact-heading{gap:11px}.application-contact-icon{width:45px;height:45px;font-size:22px}}

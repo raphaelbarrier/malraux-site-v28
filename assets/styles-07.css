@@ -1,0 +1,18 @@
+
+/* V12 : harmonisation des pages internes avec la charte crème et or */
+.detail-hero {
+ background:linear-gradient(112deg,#fff9ef 0%,#fff1d9 57%,#ffe4b3 100%) !important;
+ color:#22272a !important;
+ border-bottom:1px solid #f2ddbb !important;
+ box-shadow:none !important;
+}
+.detail-hero::before,.detail-hero::after {display:none !important;content:none !important;}
+.detail-hero h1 {color:#202529 !important;text-shadow:none !important;}
+.detail-hero p {color:#5b5146 !important;text-shadow:none !important;}
+.detail-hero .eyebrow {color:#aa741f !important;}
+.detail-wrap {background:#fffdfa !important;}
+.detail-wrap h2,.detail-card h3 {color:#262729 !important;}
+.detail-breadcrumb {color:#746858 !important;}
+.detail-card {border-color:#efdfc7 !important;}
+.feature-icon {font-size:26px !important;display:inline-flex !important;align-items:center !important;justify-content:center !important;line-height:1 !important;}
+@media(max-width:700px){.feature-icon{font-size:24px !important;}}

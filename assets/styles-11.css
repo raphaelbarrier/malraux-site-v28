@@ -1,0 +1,5 @@
+/* V16 : blason isole proprement, sans duplication du texte */
+.brand .crest-v15{width:48px!important;min-width:48px!important;height:56px!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:visible!important;flex-shrink:0!important;background:transparent!important;border:0!important;outline:0!important;padding:0!important;box-shadow:none!important}
+.brand .crest-v15 img{display:block!important;width:47px!important;height:52px!important;object-fit:contain!important;max-width:none!important}
+.brand{gap:12px!important;align-items:center!important}
+.brand .brand-copy{min-width:0}
